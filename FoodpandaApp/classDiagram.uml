@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1678.0338227713567" y="1142.0">com.foodpanda.FoodpandaApp.service.RestaurantService</node>
+    <node x="1098.1951130939372" y="1431.0">com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl</node>
+    <node x="354.9596774193549" y="1142.0">com.foodpanda.FoodpandaApp.service.OrderItemService</node>
+    <node x="920.7495731133483" y="1142.0">com.foodpanda.FoodpandaApp.service.OrderService</node>
+    <node x="908.2245731133484" y="923.0">com.foodpanda.FoodpandaApp.repository.OrderRepository</node>
+    <node x="1606.4208087977936" y="923.0">com.foodpanda.FoodpandaApp.repository.RestaurantRepository</node>
+    <node x="299.4875425788032" y="923.0">com.foodpanda.FoodpandaApp.repository.OrderItemRepository</node>
+    <node x="1894.374731862266" y="923.0">com.foodpanda.FoodpandaApp.repository.CustomerRepository</node>
+    <node x="2874.303720486917" y="1431.0">com.foodpanda.FoodpandaApp.controller.AdminController</node>
+    <node x="1564.2461021505383" y="0.0">com.foodpanda.FoodpandaApp.model.Address</node>
+    <node x="833.621871847647" y="238.0">com.foodpanda.FoodpandaApp.model.OrderItem</node>
+    <node x="2334.5940430675623" y="923.0">com.foodpanda.FoodpandaApp.repository.UserRepository</node>
+    <node x="599.3091397849464" y="794.0">com.foodpanda.FoodpandaApp.repository.CartItemRepository</node>
+    <node x="2674.5940430675623" y="923.0">com.foodpanda.FoodpandaApp.repository.MenuRepository</node>
+    <node x="2107.5940430675623" y="923.0">com.foodpanda.FoodpandaApp.model.Admin</node>
+    <node x="1115.6951130939372" y="1142.0">com.foodpanda.FoodpandaApp.service.IServiceFacade</node>
+    <node x="76.48754257880319" y="923.0">com.foodpanda.FoodpandaApp.repository.DeliveryZoneRepository</node>
+    <node x="2500.5940430675623" y="923.0">com.foodpanda.FoodpandaApp.repository.AdminRepository</node>
+    <node x="1524.2461021505383" y="99.0">com.foodpanda.FoodpandaApp.model.Restaurant</node>
+    <node x="1013.2041185678938" y="367.0">com.foodpanda.FoodpandaApp.model.MenuItem</node>
+    <node x="2139.9163985289324" y="1142.0">com.foodpanda.FoodpandaApp.controller.UserController</node>
+    <node x="1509.4208087977936" y="238.0">com.foodpanda.FoodpandaApp.model.Menu</node>
+    <node x="2518.9690430675623" y="1142.0">com.foodpanda.FoodpandaApp.service.AdminService</node>
+    <node x="1424.5338227713567" y="1142.0">com.foodpanda.FoodpandaApp.service.MenuItemService</node>
+    <node x="943.2245731133484" y="794.0">com.foodpanda.FoodpandaApp.model.Order</node>
+    <node x="28.738013973563284" y="1431.0">com.foodpanda.FoodpandaApp.controller.CustomerController</node>
+    <node x="1205.894599120374" y="645.0">com.foodpanda.FoodpandaApp.model.Status</node>
+    <node x="1358.1708087977936" y="923.0">com.foodpanda.FoodpandaApp.repository.MenuItemRepository</node>
+    <node x="2754.5940430675623" y="1142.0">com.foodpanda.FoodpandaApp.service.MenuService</node>
+    <node x="1904.874731862266" y="1142.0">com.foodpanda.FoodpandaApp.service.CustomerService</node>
+    <node x="2042.600268817205" y="486.0">com.foodpanda.FoodpandaApp.model.User</node>
+    <node x="2210.5940430675623" y="923.0">com.foodpanda.FoodpandaApp.model.UserType</node>
+    <node x="134.58467741935488" y="1142.0">com.foodpanda.FoodpandaApp.service.DeliveryZoneService</node>
+    <node x="593.5870049443947" y="923.0">com.foodpanda.FoodpandaApp.service.CartItemService</node>
+    <node x="1283.2877688172048" y="0.0">com.foodpanda.FoodpandaApp.model.DeliveryZone</node>
+    <node x="1018.5871585484826" y="238.0">com.foodpanda.FoodpandaApp.model.Category</node>
+    <node x="836.3279943256088" y="645.0">com.foodpanda.FoodpandaApp.model.Customer</node>
+    <node x="637.9221537585095" y="486.0">com.foodpanda.FoodpandaApp.model.CartItem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.model.Status">
+      <point x="27.818181818181984" y="-14.5" />
+      <point x="2978.621902305099" y="1411.0" />
+      <point x="2980.0764477596445" y="1411.0" />
+      <point x="2980.0764477596445" y="694.0" />
+      <point x="1288.394599120374" y="694.0" />
+      <point x="37.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.RestaurantService" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="20.875" y="-14.5" />
+      <point x="1782.4088227713567" y="1042.0" />
+      <point x="1804.9208087977936" y="1042.0" />
+      <point x="1804.9208087977936" y="198.0" />
+      <point x="1606.8461021505382" y="198.0" />
+      <point x="23.59999999999991" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="41.72727272727252" y="-14.5" />
+      <point x="2992.53099321419" y="1411.0" />
+      <point x="2991.0764477596445" y="1411.0" />
+      <point x="2991.0764477596445" y="575.0" />
+      <point x="2115.1457233626597" y="575.0" />
+      <point x="34.545454545454504" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Address" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="32.33333333333326" y="14.5" />
+      <point x="1645.0794354838715" y="79.0" />
+      <point x="1632.412768817205" y="79.0" />
+      <point x="49.16666666666674" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.Admin">
+      <point x="58.38709677419365" y="-14.5" />
+      <point x="1247.0822098681308" y="1351.0" />
+      <point x="2120.499731862266" y="1351.0" />
+      <point x="2120.499731862266" y="1082.0" />
+      <point x="2149.0940430675623" y="1082.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.OrderService" target="com.foodpanda.FoodpandaApp.repository.OrderRepository">
+      <point x="-26.40000000000009" y="-14.5" />
+      <point x="960.3495731133482" y="1122.0" />
+      <point x="946.4745731133484" y="1122.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Customer" target="com.foodpanda.FoodpandaApp.model.CartItem">
+      <point x="-41.59999999999991" y="-14.5" />
+      <point x="846.7279943256088" y="575.0" />
+      <point x="701.4777093140651" y="575.0" />
+      <point x="11.555555555555657" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.model.Admin">
+      <point x="-27.818181818181984" y="-14.5" />
+      <point x="2922.985538668735" y="1221.0" />
+      <point x="2296.4163985289324" y="1221.0" />
+      <point x="2296.4163985289324" y="1012.0" />
+      <point x="2172.808328781848" y="1012.0" />
+      <point x="23.71428571428578" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.AdminService" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="49.5" y="-14.5" />
+      <point x="2634.4690430675623" y="1122.0" />
+      <point x="2664.0940430675623" y="1122.0" />
+      <point x="2664.0940430675623" y="178.0" />
+      <point x="1622.5794354838715" y="178.0" />
+      <point x="39.33333333333326" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.MenuItemRepository" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="0.0" y="-14.5" />
+      <point x="1445.1708087977936" y="446.0" />
+      <point x="1101.604118567894" y="446.0" />
+      <point x="36.40000000000009" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.DeliveryZoneService" target="com.foodpanda.FoodpandaApp.repository.DeliveryZoneRepository">
+      <point x="-60.33333333333334" y="-14.5" />
+      <point x="164.75134408602162" y="1122.0" />
+      <point x="126.98754257880319" y="1122.0" />
+      <point x="-50.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.CustomerController" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="-19.333333333333485" y="-14.5" />
+      <point x="96.4046806402298" y="1381.0" />
+      <point x="33.0" y="1381.0" />
+      <point x="33.0" y="585.0" />
+      <point x="2046.0548142717505" y="585.0" />
+      <point x="-34.545454545454504" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.controller.UserController">
+      <point x="-41.72727272727252" y="-14.5" />
+      <point x="2909.076447759645" y="1231.0" />
+      <point x="2249.4163985289324" y="1231.0" />
+      <point x="36.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Order" target="com.foodpanda.FoodpandaApp.model.OrderItem">
+      <point x="-7.545454545454504" y="-14.5" />
+      <point x="977.1791185678939" y="734.0" />
+      <point x="958.3734488710633" y="734.0" />
+      <point x="958.3734488710633" y="337.0" />
+      <point x="894.6718718476469" y="337.0" />
+      <point x="5.5499999999999545" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.CustomerController" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="-77.33333333333348" y="-14.5" />
+      <point x="38.4046806402298" y="1411.0" />
+      <point x="0.0" y="1411.0" />
+      <point x="0.0" y="148.0" />
+      <point x="1528.1794354838717" y="148.0" />
+      <point x="-55.066666666666606" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.IServiceFacade" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="-63.875" y="-14.5" />
+      <point x="1124.8201130939372" y="1112.0" />
+      <point x="1082.7245731133485" y="1112.0" />
+      <point x="1082.7245731133485" y="893.0" />
+      <point x="1008.4388588276341" y="893.0" />
+      <point x="23.71428571428578" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.CustomerController" target="com.foodpanda.FoodpandaApp.controller.UserController">
+      <point x="77.33333333333348" y="-14.5" />
+      <point x="193.07134730689677" y="1361.0" />
+      <point x="2176.4163985289324" y="1361.0" />
+      <point x="-36.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.CustomerService" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="-63.75" y="-14.5" />
+      <point x="1917.624731862266" y="1042.0" />
+      <point x="1867.3809576119083" y="1042.0" />
+      <point x="1867.3809576119083" y="704.0" />
+      <point x="935.1279943256087" y="704.0" />
+      <point x="46.799999999999955" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.CartItemService" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="63.75" y="-14.5" />
+      <point x="733.8370049443947" y="873.0" />
+      <point x="783.8091397849464" y="873.0" />
+      <point x="783.8091397849464" y="754.0" />
+      <point x="862.3279943256088" y="754.0" />
+      <point x="-26.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.DeliveryZoneService" target="com.foodpanda.FoodpandaApp.model.DeliveryZone">
+      <point x="60.33333333333326" y="-14.5" />
+      <point x="285.41801075268813" y="1122.0" />
+      <point x="288.9875425788032" y="1122.0" />
+      <point x="288.9875425788032" y="69.0" />
+      <point x="1308.0377688172048" y="69.0" />
+      <point x="-41.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.repository.UserRepository">
+      <point x="0.0" y="-14.5" />
+      <point x="2950.803720486917" y="1411.0" />
+      <point x="2958.0764477596445" y="1411.0" />
+      <point x="2958.0764477596445" y="972.0" />
+      <point x="2468.427376400896" y="972.0" />
+      <point x="60.833333333333485" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Order" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="-37.72727272727275" y="-14.5" />
+      <point x="946.9973003860756" y="774.0" />
+      <point x="893.5279943256088" y="774.0" />
+      <point x="5.2000000000000455" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="87.58064516129025" y="-14.5" />
+      <point x="1276.2757582552274" y="1411.0" />
+      <point x="2890.0940430675623" y="1411.0" />
+      <point x="2890.0940430675623" y="158.0" />
+      <point x="1638.3127688172049" y="158.0" />
+      <point x="55.066666666666606" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.MenuItemService" target="com.foodpanda.FoodpandaApp.repository.MenuItemRepository">
+      <point x="-38.25" y="-14.5" />
+      <point x="1462.7838227713567" y="1032.0" />
+      <point x="1401.6708087977936" y="1032.0" />
+      <point x="-43.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="-52.54838709677426" y="-14.5" />
+      <point x="1136.1467259971628" y="1271.0" />
+      <point x="538.6232952669752" y="1271.0" />
+      <point x="538.6232952669752" y="426.0" />
+      <point x="1028.8041185678937" y="426.0" />
+      <point x="-36.40000000000009" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.OrderService" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="-52.799999999999955" y="-14.5" />
+      <point x="933.9495731133484" y="1122.0" />
+      <point x="829.6615591397854" y="1122.0" />
+      <point x="829.6615591397854" y="774.0" />
+      <point x="883.1279943256087" y="774.0" />
+      <point x="-5.2000000000000455" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.OrderItemRepository" target="com.foodpanda.FoodpandaApp.model.OrderItem">
+      <point x="0.0" y="-14.5" />
+      <point x="389.9875425788032" y="317.0" />
+      <point x="839.1718718476469" y="317.0" />
+      <point x="-49.950000000000045" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="13.909090909090992" y="-14.5" />
+      <point x="2964.712811396008" y="1411.0" />
+      <point x="2969.0764477596445" y="1411.0" />
+      <point x="2969.0764477596445" y="883.0" />
+      <point x="1020.2960016847768" y="883.0" />
+      <point x="35.57142857142844" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.CartItemRepository" target="com.foodpanda.FoodpandaApp.model.CartItem">
+      <point x="-43.5" y="-14.5" />
+      <point x="642.8091397849464" y="575.0" />
+      <point x="689.9221537585095" y="575.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Admin" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="20.75" y="-14.5" />
+      <point x="2169.8440430675623" y="903.0" />
+      <point x="2154.5940430675623" y="903.0" />
+      <point x="2154.5940430675623" y="188.0" />
+      <point x="1614.712768817205" y="188.0" />
+      <point x="31.466666666666697" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.AdminService" target="com.foodpanda.FoodpandaApp.repository.AdminRepository">
+      <point x="-16.5" y="-14.5" />
+      <point x="2568.4690430675623" y="992.0" />
+      <point x="2538.8440430675623" y="992.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.OrderService" target="com.foodpanda.FoodpandaApp.model.Status">
+      <point x="52.80000000000018" y="-14.5" />
+      <point x="1039.5495731133485" y="1122.0" />
+      <point x="1093.7245731133485" y="1122.0" />
+      <point x="1093.7245731133485" y="774.0" />
+      <point x="1243.394599120374" y="774.0" />
+      <point x="-7.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Order" target="com.foodpanda.FoodpandaApp.model.Status">
+      <point x="30.181818181818016" y="-14.5" />
+      <point x="1014.9063912951664" y="754.0" />
+      <point x="1213.394599120374" y="754.0" />
+      <point x="-37.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.model.DeliveryZone">
+      <point x="69.5454545454545" y="-14.5" />
+      <point x="3020.349175032372" y="1411.0" />
+      <point x="3013.0764477596445" y="1411.0" />
+      <point x="3013.0764477596445" y="49.0" />
+      <point x="1407.0377688172048" y="49.0" />
+      <point x="57.75" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.IServiceFacade" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="45.625" y="-14.5" />
+      <point x="1234.3201130939372" y="1042.0" />
+      <point x="1306.394599120374" y="1042.0" />
+      <point x="1306.394599120374" y="188.0" />
+      <point x="1559.6461021505384" y="188.0" />
+      <point x="-23.59999999999991" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.CustomerController" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="-58.0" y="-14.5" />
+      <point x="57.738013973563284" y="1401.0" />
+      <point x="11.0" y="1401.0" />
+      <point x="11.0" y="416.0" />
+      <point x="1018.4041185678939" y="416.0" />
+      <point x="-46.799999999999955" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.OrderItem" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="38.84999999999991" y="14.5" />
+      <point x="927.9718718476469" y="307.0" />
+      <point x="1032.7041185678938" y="307.0" />
+      <point x="-32.5" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.UserController" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="-60.833333333333485" y="-14.5" />
+      <point x="2152.083065195599" y="1042.0" />
+      <point x="2086.0940430675623" y="1042.0" />
+      <point x="2086.0940430675623" y="625.0" />
+      <point x="2080.600268817205" y="625.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.AdminService" target="com.foodpanda.FoodpandaApp.model.Admin">
+      <point x="-49.5" y="-14.5" />
+      <point x="2535.4690430675623" y="1002.0" />
+      <point x="2184.665471638991" y="1002.0" />
+      <point x="35.57142857142867" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.IServiceFacade" target="com.foodpanda.FoodpandaApp.model.Admin">
+      <point x="63.875" y="-14.5" />
+      <point x="1252.5701130939372" y="1052.0" />
+      <point x="2113.5226144961334" y="1052.0" />
+      <point x="-35.57142857142867" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.CartItemService" target="com.foodpanda.FoodpandaApp.repository.CartItemRepository">
+      <point x="12.75" y="-14.5" />
+      <point x="682.8370049443947" y="843.0" />
+      <point x="642.8091397849464" y="843.0" />
+      <point x="-43.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.RestaurantService">
+      <point x="29.193548387096826" y="-14.5" />
+      <point x="1217.888661481034" y="1301.0" />
+      <point x="1719.7838227713567" y="1301.0" />
+      <point x="-41.75" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.MenuItem" target="com.foodpanda.FoodpandaApp.model.Category">
+      <point x="-6.5" y="-14.5" />
+      <point x="1058.7041185678938" y="287.0" />
+      <point x="1044.5871585484826" y="287.0" />
+      <point x="-26.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="-29.193548387096826" y="-14.5" />
+      <point x="1159.5015647068403" y="1231.0" />
+      <point x="800.6341397849465" y="1231.0" />
+      <point x="800.6341397849465" y="764.0" />
+      <point x="872.7279943256088" y="764.0" />
+      <point x="-15.599999999999909" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.CustomerController" target="com.foodpanda.FoodpandaApp.service.IServiceFacade">
+      <point x="38.666666666666515" y="-14.5" />
+      <point x="154.4046806402298" y="1341.0" />
+      <point x="1130.295113093937" y="1341.0" />
+      <point x="-58.40000000000009" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.OrderItem">
+      <point x="-64.22580645161293" y="-14.5" />
+      <point x="1124.4693066423242" y="1291.0" />
+      <point x="526.9458759121364" y="1291.0" />
+      <point x="526.9458759121364" y="337.0" />
+      <point x="861.371871847647" y="337.0" />
+      <point x="-27.75" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.OrderItemService" target="com.foodpanda.FoodpandaApp.model.OrderItem">
+      <point x="53.33333333333337" y="-14.5" />
+      <point x="488.29301075268825" y="1122.0" />
+      <point x="490.9875425788032" y="1122.0" />
+      <point x="490.9875425788032" y="327.0" />
+      <point x="850.271871847647" y="327.0" />
+      <point x="-38.84999999999991" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.MenuItem" target="com.foodpanda.FoodpandaApp.model.OrderItem">
+      <point x="-45.5" y="-14.5" />
+      <point x="1019.7041185678938" y="317.0" />
+      <point x="916.871871847647" y="317.0" />
+      <point x="27.75" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.MenuItemService" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="38.25" y="-14.5" />
+      <point x="1539.2838227713567" y="1042.0" />
+      <point x="1595.9208087977936" y="1042.0" />
+      <point x="1595.9208087977936" y="218.0" />
+      <point x="1591.1127688172048" y="218.0" />
+      <point x="7.866666666666561" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.CartItemService" target="com.foodpanda.FoodpandaApp.model.CartItem">
+      <point x="-12.75" y="-14.5" />
+      <point x="657.3370049443947" y="853.0" />
+      <point x="588.8091397849464" y="853.0" />
+      <point x="588.8091397849464" y="565.0" />
+      <point x="678.3665982029538" y="565.0" />
+      <point x="-11.555555555555657" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.MenuItemService" target="com.foodpanda.FoodpandaApp.model.Menu">
+      <point x="12.75" y="-14.5" />
+      <point x="1513.7838227713567" y="1032.0" />
+      <point x="1542.6708087977936" y="1032.0" />
+      <point x="-4.75" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.MenuItemService" target="com.foodpanda.FoodpandaApp.model.Admin">
+      <point x="63.75" y="-14.5" />
+      <point x="1564.7838227713567" y="1062.0" />
+      <point x="2125.3797573532765" y="1062.0" />
+      <point x="-23.71428571428578" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.Status">
+      <point x="5.838709677419274" y="-14.5" />
+      <point x="1194.5338227713564" y="1261.0" />
+      <point x="1327.9797479344888" y="1261.0" />
+      <point x="1327.9797479344888" y="774.0" />
+      <point x="1273.394599120374" y="774.0" />
+      <point x="22.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.MenuItemService">
+      <point x="17.51612903225805" y="-14.5" />
+      <point x="1206.2112421261952" y="1281.0" />
+      <point x="1462.7838227713567" y="1281.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.AdminService">
+      <point x="64.22580645161293" y="-14.5" />
+      <point x="1252.92091954555" y="1371.0" />
+      <point x="2551.9690430675623" y="1371.0" />
+      <point x="-33.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Restaurant" target="com.foodpanda.FoodpandaApp.model.Address">
+      <point x="9.833333333333258" y="-14.5" />
+      <point x="1593.0794354838715" y="79.0" />
+      <point x="1580.412768817205" y="79.0" />
+      <point x="-32.33333333333326" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.CustomerRepository" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="1981.374731862266" y="625.0" />
+      <point x="2073.691177908114" y="625.0" />
+      <point x="-6.909090909090992" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.MenuService" target="com.foodpanda.FoodpandaApp.repository.MenuRepository">
+      <point x="-50.0" y="-14.5" />
+      <point x="2767.0940430675623" y="1122.0" />
+      <point x="2711.0940430675623" y="1122.0" />
+      <point x="-36.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Restaurant" target="com.foodpanda.FoodpandaApp.model.Menu">
+      <point x="0.0" y="14.5" />
+      <point x="1583.2461021505383" y="218.0" />
+      <point x="1572.754142131127" y="218.0" />
+      <point x="25.33333333333337" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.CustomerController" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="0.0" y="-14.5" />
+      <point x="115.73801397356328" y="1371.0" />
+      <point x="44.0" y="1371.0" />
+      <point x="44.0" y="734.0" />
+      <point x="841.5279943256088" y="734.0" />
+      <point x="-46.799999999999955" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.IServiceFacade" target="com.foodpanda.FoodpandaApp.model.CartItem">
+      <point x="-27.375" y="-14.5" />
+      <point x="1161.3201130939372" y="1122.0" />
+      <point x="1173.394599120374" y="1122.0" />
+      <point x="1173.394599120374" y="545.0" />
+      <point x="736.1443759807316" y="545.0" />
+      <point x="46.22222222222217" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.CustomerService" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="-38.25" y="-14.5" />
+      <point x="1943.124731862266" y="1032.0" />
+      <point x="1883.874731862266" y="1032.0" />
+      <point x="1883.874731862266" y="615.0" />
+      <point x="2066.7820869990232" y="615.0" />
+      <point x="-13.818181818181756" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.IServiceFacade">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Order" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="22.636363636363512" y="-14.5" />
+      <point x="1007.3609367497119" y="744.0" />
+      <point x="1157.9280676393917" y="744.0" />
+      <point x="1157.9280676393917" y="178.0" />
+      <point x="1551.7794354838716" y="178.0" />
+      <point x="-31.466666666666697" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.CartItemService">
+      <point x="-40.87096774193549" y="-14.5" />
+      <point x="1147.8241453520018" y="1251.0" />
+      <point x="652.2971537585095" y="1251.0" />
+      <point x="652.2971537585095" y="1122.0" />
+      <point x="631.8370049443947" y="1122.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.UserController" target="com.foodpanda.FoodpandaApp.model.UserType">
+      <point x="12.166666666666515" y="-14.5" />
+      <point x="2225.083065195599" y="1082.0" />
+      <point x="2262.5940430675623" y="1082.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.CustomerService" target="com.foodpanda.FoodpandaApp.repository.UserRepository">
+      <point x="38.25" y="-14.5" />
+      <point x="2019.624731862266" y="1092.0" />
+      <point x="2346.760709734229" y="1092.0" />
+      <point x="-60.833333333333485" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.CustomerService">
+      <point x="46.709677419354875" y="-14.5" />
+      <point x="1235.404790513292" y="1331.0" />
+      <point x="1943.124731862266" y="1331.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.DeliveryZoneService">
+      <point x="-87.58064516129036" y="-14.5" />
+      <point x="1101.1144679326467" y="1331.0" />
+      <point x="179.83467741935488" y="1331.0" />
+      <point x="-45.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.CartItemRepository" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="43.5" y="-14.5" />
+      <point x="729.8091397849464" y="744.0" />
+      <point x="851.9279943256087" y="744.0" />
+      <point x="-36.40000000000009" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.OrderService" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="26.40000000000009" y="-14.5" />
+      <point x="1013.1495731133484" y="1112.0" />
+      <point x="1071.7245731133485" y="1112.0" />
+      <point x="1071.7245731133485" y="903.0" />
+      <point x="996.5817159704912" y="903.0" />
+      <point x="11.85714285714289" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.MenuItem" target="com.foodpanda.FoodpandaApp.model.CartItem">
+      <point x="5.2000000000000455" y="14.5" />
+      <point x="1070.4041185678939" y="466.0" />
+      <point x="724.5888204251762" y="466.0" />
+      <point x="34.66666666666674" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.IServiceFacade" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="-9.125" y="-14.5" />
+      <point x="1179.5701130939372" y="1122.0" />
+      <point x="1184.394599120374" y="1122.0" />
+      <point x="1184.394599120374" y="466.0" />
+      <point x="1080.8041185678937" y="466.0" />
+      <point x="15.599999999999909" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.OrderItemService">
+      <point x="-75.9032258064517" y="-14.5" />
+      <point x="1112.7918872874855" y="1311.0" />
+      <point x="394.9596774193549" y="1311.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.OrderService">
+      <point x="-11.677419354838776" y="-14.5" />
+      <point x="1177.0176937390984" y="1201.0" />
+      <point x="953.7495731133483" y="1201.0" />
+      <point x="-33.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Menu" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="-14.25" y="14.5" />
+      <point x="1533.1708087977936" y="347.0" />
+      <point x="1110.7041185678938" y="347.0" />
+      <point x="45.5" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Customer" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="20.799999999999955" y="-14.5" />
+      <point x="909.1279943256087" y="595.0" />
+      <point x="2052.9639051808413" y="595.0" />
+      <point x="-27.63636363636374" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.RestaurantRepository" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="0.0" y="-14.5" />
+      <point x="1700.4208087977936" y="208.0" />
+      <point x="1598.9794354838716" y="208.0" />
+      <point x="15.733333333333348" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.MenuItem" target="com.foodpanda.FoodpandaApp.model.Menu">
+      <point x="19.5" y="-14.5" />
+      <point x="1084.7041185678938" y="327.0" />
+      <point x="1514.1708087977936" y="327.0" />
+      <point x="-33.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.IServiceFacade" target="com.foodpanda.FoodpandaApp.model.DeliveryZone">
+      <point x="9.125" y="-14.5" />
+      <point x="1197.8201130939372" y="1122.0" />
+      <point x="1195.394599120374" y="1122.0" />
+      <point x="1195.394599120374" y="79.0" />
+      <point x="1324.5377688172048" y="79.0" />
+      <point x="-24.75" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.IServiceFacade" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="-45.625" y="-14.5" />
+      <point x="1143.0701130939372" y="1102.0" />
+      <point x="1104.7245731133485" y="1102.0" />
+      <point x="1104.7245731133485" y="714.0" />
+      <point x="924.7279943256088" y="714.0" />
+      <point x="36.40000000000009" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.Menu">
+      <point x="40.8709677419356" y="-14.5" />
+      <point x="1229.5660808358728" y="1321.0" />
+      <point x="1855.5338227713567" y="1321.0" />
+      <point x="1855.5338227713567" y="347.0" />
+      <point x="1552.1708087977936" y="347.0" />
+      <point x="4.75" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.MenuItemService" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="-63.75" y="-14.5" />
+      <point x="1437.2838227713567" y="1042.0" />
+      <point x="1347.6708087977936" y="1042.0" />
+      <point x="1347.6708087977936" y="456.0" />
+      <point x="1091.2041185678938" y="456.0" />
+      <point x="26.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.RestaurantService" target="com.foodpanda.FoodpandaApp.repository.RestaurantRepository">
+      <point x="-62.625" y="-14.5" />
+      <point x="1698.9088227713567" y="1042.0" />
+      <point x="1653.4208087977936" y="1042.0" />
+      <point x="-47.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.CustomerController" target="com.foodpanda.FoodpandaApp.model.CartItem">
+      <point x="-38.666666666666515" y="-14.5" />
+      <point x="77.07134730689677" y="1391.0" />
+      <point x="22.0" y="1391.0" />
+      <point x="22.0" y="535.0" />
+      <point x="643.6999315362873" y="535.0" />
+      <point x="-46.22222222222217" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="55.63636363636351" y="-14.5" />
+      <point x="3006.440084123281" y="1411.0" />
+      <point x="3002.0764477596445" y="1411.0" />
+      <point x="3002.0764477596445" y="436.0" />
+      <point x="1112.0041185678938" y="436.0" />
+      <point x="46.799999999999955" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.UserRepository" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="2407.5940430675623" y="595.0" />
+      <point x="2101.3275415444778" y="595.0" />
+      <point x="20.727272727272748" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.OrderItem" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="16.65000000000009" y="14.5" />
+      <point x="905.771871847647" y="327.0" />
+      <point x="971.2342933890344" y="327.0" />
+      <point x="971.2342933890344" y="724.0" />
+      <point x="984.7245731133484" y="724.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.CartItemService" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="-63.75" y="-14.5" />
+      <point x="606.3370049443947" y="873.0" />
+      <point x="555.4620049443947" y="873.0" />
+      <point x="555.4620049443947" y="436.0" />
+      <point x="1039.2041185678938" y="436.0" />
+      <point x="-26.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.CustomerController" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="19.333333333333485" y="-14.5" />
+      <point x="135.07134730689677" y="1361.0" />
+      <point x="55.0" y="1361.0" />
+      <point x="55.0" y="883.0" />
+      <point x="949.1531445419197" y="883.0" />
+      <point x="-35.57142857142867" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.MenuService">
+      <point x="75.9032258064517" y="-14.5" />
+      <point x="1264.5983389003889" y="1391.0" />
+      <point x="2785.8440430675623" y="1391.0" />
+      <point x="-31.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.OrderItemService" target="com.foodpanda.FoodpandaApp.repository.OrderItemRepository">
+      <point x="-53.33333333333334" y="-14.5" />
+      <point x="381.6263440860216" y="1122.0" />
+      <point x="344.7375425788032" y="1122.0" />
+      <point x="-45.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.RestaurantService" target="com.foodpanda.FoodpandaApp.model.Admin">
+      <point x="62.625" y="-14.5" />
+      <point x="1824.1588227713567" y="1072.0" />
+      <point x="2137.2369002104197" y="1072.0" />
+      <point x="-11.85714285714289" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.IServiceFacade" target="com.foodpanda.FoodpandaApp.model.Status">
+      <point x="27.375" y="-14.5" />
+      <point x="1216.0701130939372" y="1032.0" />
+      <point x="1258.394599120374" y="1032.0" />
+      <point x="7.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.UserController" target="com.foodpanda.FoodpandaApp.model.Admin">
+      <point x="-12.166666666666515" y="-14.5" />
+      <point x="2200.749731862266" y="1022.0" />
+      <point x="2160.951185924705" y="1022.0" />
+      <point x="11.85714285714289" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.CartItem">
+      <point x="-46.709677419354875" y="-14.5" />
+      <point x="1141.9854356745823" y="1261.0" />
+      <point x="544.4620049443947" y="1261.0" />
+      <point x="544.4620049443947" y="545.0" />
+      <point x="655.2554870918427" y="545.0" />
+      <point x="-34.66666666666674" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.OrderRepository" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.AdminRepository" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="2577.0940430675623" y="585.0" />
+      <point x="2108.2366324535687" y="585.0" />
+      <point x="27.636363636363512" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.MenuService" target="com.foodpanda.FoodpandaApp.model.Menu">
+      <point x="25.0" y="-14.5" />
+      <point x="2842.0940430675623" y="317.0" />
+      <point x="1580.6708087977936" y="317.0" />
+      <point x="33.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.DeliveryZone">
+      <point x="11.677419354838776" y="-14.5" />
+      <point x="1200.372532448776" y="1271.0" />
+      <point x="1333.8184576119083" y="1271.0" />
+      <point x="1333.8184576119083" y="79.0" />
+      <point x="1341.0377688172048" y="79.0" />
+      <point x="-8.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.CartItem" target="com.foodpanda.FoodpandaApp.model.MenuItem">
+      <point x="-34.66666666666674" y="-14.5" />
+      <point x="655.2554870918427" y="446.0" />
+      <point x="1049.604118567894" y="446.0" />
+      <point x="-15.599999999999909" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Restaurant" target="com.foodpanda.FoodpandaApp.model.DeliveryZone">
+      <point x="-49.16666666666663" y="-14.5" />
+      <point x="1534.0794354838717" y="79.0" />
+      <point x="1357.5377688172048" y="79.0" />
+      <point x="8.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Menu" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="-25.33333333333337" y="-14.5" />
+      <point x="1522.0874754644603" y="198.0" />
+      <point x="1567.512768817205" y="198.0" />
+      <point x="-15.733333333333348" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.MenuService" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="50.0" y="-14.5" />
+      <point x="2867.0940430675623" y="1122.0" />
+      <point x="2853.0940430675623" y="1122.0" />
+      <point x="2853.0940430675623" y="168.0" />
+      <point x="1630.4461021505383" y="168.0" />
+      <point x="47.200000000000045" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.AdminController" target="com.foodpanda.FoodpandaApp.service.IServiceFacade">
+      <point x="-69.5454545454545" y="-14.5" />
+      <point x="2881.258265941463" y="1251.0" />
+      <point x="1217.895113093937" y="1251.0" />
+      <point x="29.199999999999818" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.DeliveryZone" target="com.foodpanda.FoodpandaApp.model.Restaurant">
+      <point x="41.25" y="14.5" />
+      <point x="1390.5377688172048" y="59.0" />
+      <point x="1573.412768817205" y="59.0" />
+      <point x="-9.833333333333258" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.CustomerService" target="com.foodpanda.FoodpandaApp.repository.CustomerRepository">
+      <point x="-12.75" y="-14.5" />
+      <point x="1968.624731862266" y="1022.0" />
+      <point x="1937.874731862266" y="1022.0" />
+      <point x="-43.5" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.controller.UserController" target="com.foodpanda.FoodpandaApp.repository.UserRepository">
+      <point x="36.5" y="-14.5" />
+      <point x="2249.4163985289324" y="1112.0" />
+      <point x="2395.427376400896" y="1112.0" />
+      <point x="-12.166666666666515" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.DeliveryZoneRepository" target="com.foodpanda.FoodpandaApp.model.DeliveryZone">
+      <point x="0.0" y="-14.5" />
+      <point x="177.4875425788032" y="59.0" />
+      <point x="1291.5377688172048" y="59.0" />
+      <point x="-57.75" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="-23.354838709677438" y="-14.5" />
+      <point x="1165.3402743842598" y="1221.0" />
+      <point x="806.472849462366" y="1221.0" />
+      <point x="806.472849462366" y="893.0" />
+      <point x="961.0102873990626" y="893.0" />
+      <point x="-23.71428571428578" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Customer" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="26.0" y="14.5" />
+      <point x="914.3279943256088" y="754.0" />
+      <point x="962.0882094769848" y="754.0" />
+      <point x="-22.636363636363512" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.CartItem" target="com.foodpanda.FoodpandaApp.model.Customer">
+      <point x="23.111111111111086" y="14.5" />
+      <point x="713.0332648696206" y="565.0" />
+      <point x="867.5279943256088" y="565.0" />
+      <point x="-20.799999999999955" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Restaurant" target="com.foodpanda.FoodpandaApp.model.Order">
+      <point x="-39.33333333333326" y="14.5" />
+      <point x="1543.912768817205" y="168.0" />
+      <point x="1150.3826130939372" y="168.0" />
+      <point x="1150.3826130939372" y="734.0" />
+      <point x="999.8154822042574" y="734.0" />
+      <point x="15.090909090909008" y="-14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.repository.MenuRepository" target="com.foodpanda.FoodpandaApp.model.Menu">
+      <point x="0.0" y="-14.5" />
+      <point x="2747.5940430675623" y="337.0" />
+      <point x="1561.6708087977936" y="337.0" />
+      <point x="14.25" y="14.5" />
+    </edge>
+    <edge source="com.foodpanda.FoodpandaApp.model.Admin" target="com.foodpanda.FoodpandaApp.model.User">
+      <point x="-20.75" y="-14.5" />
+      <point x="2128.3440430675623" y="903.0" />
+      <point x="2143.5940430675623" y="903.0" />
+      <point x="2143.5940430675623" y="605.0" />
+      <point x="2094.4184506353868" y="605.0" />
+      <point x="13.818181818181756" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5195945945945946" x="1514.0" y="730.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

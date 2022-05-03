@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="227.0">com.foodpanda.FoodpandaApp.service.CartItemService</node>
+    <node x="0.0" y="79.0">com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl</node>
+    <node x="0.0" y="153.0">com.foodpanda.FoodpandaApp.service.RestaurantService</node>
+    <node x="212.0" y="153.0">com.foodpanda.FoodpandaApp.service.OrderItemService</node>
+    <node x="17.5" y="0.0">com.foodpanda.FoodpandaApp.service.IServiceFacade</node>
+    <node x="0.0" y="375.0">com.foodpanda.FoodpandaApp.service.OrderService</node>
+    <node x="177.0" y="375.0">com.foodpanda.FoodpandaApp.service.MenuService</node>
+    <node x="198.0" y="227.0">com.foodpanda.FoodpandaApp.service.CustomerService</node>
+    <node x="198.0" y="301.0">com.foodpanda.FoodpandaApp.service.AdminService</node>
+    <node x="226.0" y="0.0">com.foodpanda.FoodpandaApp.service.DeliveryZoneService</node>
+    <node x="0.0" y="301.0">com.foodpanda.FoodpandaApp.service.MenuItemService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.foodpanda.FoodpandaApp.service.ServiceMediatorImpl" target="com.foodpanda.FoodpandaApp.service.IServiceFacade">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="614.0" y="167.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
