@@ -11,6 +11,9 @@ import org.springframework.stereotype.Service;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+/**
+ * service for customer operations
+ */
 @Service
 public class CustomerService {
 
@@ -23,6 +26,10 @@ public class CustomerService {
         this.userRepository = userRepository;
     }
 
+    /**
+     * create a new customer account
+     * @param userRegisterDTO account details
+     */
     public void createCustomer(UserRegisterDTO userRegisterDTO) {
         UserValidator userValidator = new UserValidator(userRepository);
         try{

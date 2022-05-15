@@ -21,6 +21,10 @@ public class Customer extends User{
         super(email, password, firstName, lastName);
     }
 
+    public Customer(Long id, String email, String password, String firstName, String lastName) {
+        super(id, email, password, firstName, lastName);
+    }
+
     @JsonIgnore
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<CartItem> cartItems = new HashSet<>();

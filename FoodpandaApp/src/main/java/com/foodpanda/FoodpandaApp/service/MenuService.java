@@ -13,6 +13,9 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.HashSet;
 
+/**
+ * service for menu operations
+ */
 @Service
 public class MenuService {
     private final MenuRepository menuRepository;
@@ -22,6 +25,11 @@ public class MenuService {
         this.menuRepository = menuRepository;
     }
 
+    /**
+     * create a new menu for a restaurant
+     * @param restaurant the restaurant
+     * @throws Exception restaurant already has a menu
+     */
     protected void createMenu(Restaurant restaurant) throws Exception {
         Menu menuFound = menuRepository.findByRestaurantId(restaurant.getId());
         if(menuFound == null) {
@@ -34,10 +42,19 @@ public class MenuService {
         }
     }
 
+    /**
+     * update a menu
+     * @param menu menu
+     */
     protected void updateMenu(Menu menu) {
         menuRepository.save(menu);
     }
 
+    /**
+     * find a menu by id
+     * @param menuId menu id
+     * @return menu
+     */
     protected Menu findMenuById(Long menuId){
         return menuRepository.findById(menuId).get();
     }

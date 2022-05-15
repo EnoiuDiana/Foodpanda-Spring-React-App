@@ -41,4 +41,9 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    public UserType getUserType() {
+        if(this instanceof Admin) return UserType.ADMIN;
+        else return UserType.CUSTOMER;
+    }
 }

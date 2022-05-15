@@ -1,0 +1,13 @@
+com.foodpanda.FoodpandaApp
+com.foodpanda.FoodpandaApp.controller
+com.foodpanda.FoodpandaApp.dto
+com.foodpanda.FoodpandaApp.model
+com.foodpanda.FoodpandaApp.repository
+com.foodpanda.FoodpandaApp.security
+com.foodpanda.FoodpandaApp.security.jwt
+com.foodpanda.FoodpandaApp.security.services
+com.foodpanda.FoodpandaApp.service
+com.foodpanda.FoodpandaApp.service.MailSender
+com.foodpanda.FoodpandaApp.service.mapper
+com.foodpanda.FoodpandaApp.service.MenuPdfGenerator
+com.foodpanda.FoodpandaApp.service.Validators

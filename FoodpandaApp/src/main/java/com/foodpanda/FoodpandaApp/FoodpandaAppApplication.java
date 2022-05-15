@@ -16,25 +16,25 @@ public class FoodpandaAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FoodpandaAppApplication.class, args);
 	}
+//
+//	@Bean
+//	public WebMvcConfigurer corsConfigurer() {
+//		return new WebMvcConfigurer() {
+//			@Override
+//			public void addCorsMappings(CorsRegistry registry) {
+//				registry.addMapping("/**").allowedMethods("GET", "POST", "PUT", "DELETE")
+//						.allowedOrigins("*")
+//						.allowedMethods("*");
+//
+//			}
+//		};
+//	}
 
 	@Bean
-	public WebMvcConfigurer corsConfigurer() {
-		return new WebMvcConfigurer() {
-			@Override
-			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedMethods("GET", "POST", "PUT", "DELETE")
-						.allowedOrigins("*")
-						.allowedMethods("*");
-
-			}
-		};
-	}
-
-/*	@Bean
 	protected CorsConfigurationSource corsConfigurationSource() {
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		source.registerCorsConfiguration("/**", new CorsConfiguration().applyPermitDefaultValues());
 		return source;
-	}*/
+	}
 
 }

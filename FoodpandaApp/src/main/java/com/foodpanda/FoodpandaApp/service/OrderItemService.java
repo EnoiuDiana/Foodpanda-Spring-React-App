@@ -8,6 +8,9 @@ import com.foodpanda.FoodpandaApp.repository.OrderItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * service for order items operations
+ */
 @Service
 public class OrderItemService {
     final OrderItemRepository orderItemRepository;
@@ -17,6 +20,10 @@ public class OrderItemService {
         this.orderItemRepository = orderItemRepository;
     }
 
+    /**
+     * add order item
+     * @param orderItem order item
+     */
     protected void addOrderItem(OrderItem orderItem) {
         orderItemRepository.save(orderItem);
     }

@@ -12,6 +12,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * service for cart items operations
+ */
 @Service
 public class CartItemService {
 
@@ -22,6 +25,11 @@ public class CartItemService {
         this.cartItemRepository = cartItemRepository;
     }
 
+    /**
+     * add a new cart item for a customer
+     * @param customer the customer
+     * @param menuItem new cart item
+     */
     protected void addNewCartItem(Customer customer, MenuItem menuItem) {
         CartItem cartItem = new CartItem(customer, menuItem);
         Set<CartItem> cartItems = customer.getCartItems();
@@ -30,11 +38,20 @@ public class CartItemService {
         cartItemRepository.save(cartItem);
     }
 
+    /**
+     * used to delete cart items
+     * @param customer the customer
+     */
     @Transactional
     protected void deleteAllCartItems(Customer customer) {
         cartItemRepository.deleteAllByCustomer(customer);
     }
 
+    /**
+     * retrieve all cart items for a customer
+     * @param customer the customer
+     * @return set of cart items
+     */
     protected Set<CartItem> getCartItems(Customer customer) {
         return cartItemRepository.findAllByCustomer(customer);
     }

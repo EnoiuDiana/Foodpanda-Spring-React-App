@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * service for delivery zones operations
+ */
 @Service
 public class DeliveryZoneService {
 
@@ -18,6 +21,10 @@ public class DeliveryZoneService {
         this.deliveryZoneRepository = deliveryZoneRepository;
     }
 
+    /**
+     * retrieve all delivery zones
+     * @return
+     */
     public List<DeliveryZone> findAll() {
         return deliveryZoneRepository.findAll();
     }

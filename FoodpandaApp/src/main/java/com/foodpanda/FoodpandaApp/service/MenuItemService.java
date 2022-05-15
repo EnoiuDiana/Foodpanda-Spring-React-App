@@ -14,6 +14,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * service for menu items operations
+ */
 @Service
 public class MenuItemService {
     private final MenuItemRepository menuItemRepository;
@@ -23,8 +26,13 @@ public class MenuItemService {
         this.menuItemRepository = menuItemRepository;
     }
 
+    /**
+     * create a new menu item for a restaurant menu
+     * @param menuItemDTO menu item details
+     * @param admin admin that has the restaurant
+     * @throws Exception
+     */
     protected void createMenuItem(MenuItemDTO menuItemDTO, Admin admin) throws Exception {
-        //todo validate dto
         Restaurant restaurant = admin.getRestaurant();
         Menu menu = restaurant.getMenu();
         if(menu != null) {
@@ -41,10 +49,20 @@ public class MenuItemService {
 
     }
 
+    /**
+     * find all menu items by menu
+     * @param menu the menu
+     * @return list of menu items
+     */
     protected List<MenuItem> findMenuItemsByMenu(Menu menu) {
         return menuItemRepository.findAllByMenuId(menu.getId());
     }
 
+    /**
+     * find a menu item by id
+     * @param menuItemId menu item id
+     * @return a menu item
+     */
     protected MenuItem findMenuItemById(Long menuItemId){
         return menuItemRepository.findById(menuItemId).get();
     }

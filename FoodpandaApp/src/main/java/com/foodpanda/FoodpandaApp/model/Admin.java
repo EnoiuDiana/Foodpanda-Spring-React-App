@@ -17,4 +17,7 @@ public class Admin extends User{
     private Restaurant restaurant;
 
 
+    public Admin(String email, String password, String firstName, String lastName) {
+        super(email, password, firstName, lastName);
+    }
 }
